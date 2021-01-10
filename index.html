@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in | Google Accounts</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/9e2213edf0.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <main>
+
+        <form action="./password.html" class="UserForm" onsubmit="return emailCheck()">
+            <div class="googleImg">
+                <img src="./images/google-logo.png" alt="google img">
+            </div>
+            <div class="formHeader">
+                <h2>Sign in</h2>
+                <p>Use Your Google Account</p>
+            </div>
+            <div class="userEmail">
+                <input type="email" id="email" placeholder="Email or phone" />
+                <span style="color:red;" id="errorEmail"></span>
+                <label for="email"></label>
+            </div>
+
+            <a href="#" class="forgetLink">Forgot email?</a>
+            <div class="errorInfo">
+                <span>Not your computer? Use Guest mode to sign in privately.</span>
+                <a href="#">Learn more</a>
+            </div>
+                
+            <div class="userSub">
+                <a href="#">Create account</a>
+                <button>Next</button>
+            </div>
+        </form>
+
+
+    </main>
+
+    <!-- Javascript -->
+    <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #1e76e8;
+}
+
+/* Center Main Content */
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  vertical-align: middle;
+}
+
+/* Form Styling */
+.UserForm,
+.userThanks {
+  width: 470px;
+  height: 510px;
+  border: 1px solid #ced0d1;
+  padding: 2.5rem;
+  border-radius: 10px;
+}
+
+.googleImg {
+  width: 100px;
+  margin: auto;
+}
+
+.googleImg img {
+  max-width: 100%;
+  height: auto;
+}
+
+.formHeader {
+  text-align: center;
+}
+
+.formHeader h2 {
+  margin: 15px 0px;
+  font-weight: lighter;
+}
+
+.formHeader p {
+  margin-bottom: 2rem;
+}
+
+h5 {
+  border: 1px solid #ced0d1;
+  border-radius: 50px;
+  padding: 7px;
+  margin-bottom: 2.5rem;
+  display: inline-block;
+  font-weight: lighter;
+}
+
+h5 i {
+  font-size: 1.1rem;
+}
+
+#userEnterEmail {
+  margin: 0 1rem;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+  outline: none;
+  border: 1px solid #ced0d1;
+  border-radius: 4px;
+}
+
+.forgetLink {
+  font-weight: bold;
+}
+
+.errorInfo {
+  margin: 3.5rem 0;
+}
+
+.errorInfo span {
+  font-size: 15px;
+}
+
+.errorInfo a {
+  font-weight: lighter;
+  margin: 1rem 0;
+}
+
+.userSub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userSub a .userSubP a {
+  font-weight: 600;
+}
+
+.userSub button,
+.userSubP button {
+  padding: 10px 30px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  background-color: #1e76e8;
+  border-radius: 4px;
+}
+
+.userSubP {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+
+/* Thanks.html */
+.userThanks {
+  text-align: center;
+}
+.userThanks h1 {
+  font-size: 2rem;
+}
+
+.userThanks img {
+  padding-top: 4rem;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsiveness */
+
+@media only screen and (max-width: 567px) {
+  .UserForm,
+  .userThanks {
+    width: 90vw;
+    padding: 1.5rem;
+  }
+}
